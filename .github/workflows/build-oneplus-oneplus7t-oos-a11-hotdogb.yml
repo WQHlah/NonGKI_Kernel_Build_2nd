@@ -15,7 +15,7 @@ env:
   KERNEL_SOURCE : "https://github.com/WQHlah/op7.git"
   KERNEL_BRANCH : "blu_spark-11"
 
-  CLANG_SOURCE : "https://github.com/llvm/llvm-project/releases/download/llvmorg-14.0.5/clang+llvm-14.0.5-aarch64-linux-gnu.tar.xz"
+  CLANG_SOURCE : "https://github.com/llvm/llvm-project/releases/download/llvmorg-14.0.6/clang+llvm-14.0.6-x86_64-linux-gnu-rhel-8.4.tar.xz"
   CLANG_BRANCH : ""
 
   GCC_GNU : false
