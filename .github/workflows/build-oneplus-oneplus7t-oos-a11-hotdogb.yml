@@ -10,7 +10,7 @@ env:
   DEVICE_CODENAME : "hotdogb"
 
   CUSTOM_CMDS : "CLANG_TRIPLE=aarch64-linux-gnu-"
-  EXTRA_CMDS : "LD=ld.lld LLVM=1 LLVM_IAS=1 WERROR=0"
+  EXTRA_CMDS : "LD=ld.lld LLVM=1 LLVM_IAS=1 WERROR=0 KBUILD_EXTRA_WARNINGS=1"
 
   KERNEL_SOURCE : "https://github.com/WQHlah/op7.git"
   KERNEL_BRANCH : "blu_spark-11"
